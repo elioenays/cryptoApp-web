@@ -13,14 +13,14 @@ const SectionWrapper = ({
 }) => {
   return (
     <div
-      className={`min-h-screen ${styles.section} ${
-        reverse ? styles.bgWhite : styles.bgPrimary
-      } ${banner}`}
+      className={`min-h-screen ${styles.section} 
+      ${reverse ? styles.bgWhite : styles.bgPrimary}  
+      ${banner}`}
     >
       <div
-        className={`flex items-center ${
-          reverse ? styles.boxReverseClass : styles.boxClass
-        } w-11/12 sm:w-full minmd:w-3/4`}
+        className={`flex items-center 
+        ${reverse ? styles.boxReverseClass : styles.boxClass} 
+        w-11/12 sm:w-full minmd:w-3/4`}
       >
         <div
           className={`${styles.descDiv} 
@@ -60,9 +60,9 @@ const SectionWrapper = ({
           <img
             src={mockupImg}
             alt='mockup'
-            className={`${styles.sectionImg}${
-              reverse ? 'fadeRightMini' : 'fadeLeftMini'
-            }
+            className={`
+            ${reverse ? 'fadeLeftMini' : 'fadeRightMini'}
+            ${styles.sectionImg}
           `}
           />
         </div>
